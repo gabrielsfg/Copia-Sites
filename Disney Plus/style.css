@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Avenir Roman";
+    src: url("avenir-roman.ttf") format("truetype");
+  }
+
+* {
+    font-family: "Avenir Roman", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.section {
+    background: url(Background.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.login {
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: solid 1px silver;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    justify-content: center;
+    padding: 8px 16px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+
+.login:hover {
+    background-color: #f9f9f9;
+    color: black;
+}
+
+
+
+img.logo {
+    max-width: 320px;
+    padding: 0;
+}
+
+.card {
+    margin-top: 270px;
+    padding-left: 160px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 28px;
+    color: #f9f9f9;
+    margin-bottom: 24px;
+}
+
+.combo {
+    padding: 21px 33px 21px 33px;
+    margin: 28px 0 20px 0;
+    text-decoration: none;
+    color: white;
+    background: #7b00d6;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+}
+
+.btn {
+    font-size: 16px;
+    color: white;
+}
+
+
+h2{
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 44px;
+}
+
+.main {
+    background-color: rgba(4,7,21,255);
+    padding: 0;
+    margin: 0;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    padding: 0 200px 0 200px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+.text{
+    background-image: url(back.jpg);
+    padding: 60px 44px 44px;
+}
+
+.both {
+    font-size: 18px;
+    color: silver;
+    padding-top: 100px;
+}
+
+.price1 {
+    margin-top: 28px;
+    font-size: 28px;
+    color: white;
+}
+
+.description {
+    font-size: 18px;
+    color: silver;
+    text-align: center;
+}
+
+.sign2 {
+    margin-top: 28px;
+    padding: 16.5px 24px 16.5px 24px;
+    text-decoration: none;
+    background: #6421ff;
+    color: silver;
+    display: block;
+}
+
+.text2{
+
+    align-items: center;
+    text-align: center;
+    background-image: url(back2.jpg);
+    padding: 60px 44px 44px;
+}
+
+.sign3 {
+    margin-top: 28px;
+    padding: 16.5px 24px 16.5px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #006ef5;
+    color: silver;
+    display: block;
+}
+
+.alert{
+    color: silver;
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    display: block;
+}
